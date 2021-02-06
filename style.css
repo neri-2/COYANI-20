@@ -1,0 +1,55 @@
+/*원하는 폰트 가져오기*/
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+
+html,body {
+	margin-top:30px;
+	margin-left:130px;
+	margin-right:130px;
+	padding:0px;
+	height:100%;
+	font-family: 'Noto Sans KR', sans-serif;
+}
+.header {
+	width:100%;
+	height:21%;
+	font-family: 'Jua', sans-serif;
+	font-size: 52px;
+	text-align: center;
+	color: #F29661;
+}
+.nav {
+	width:100%;
+	height:8%;
+	font-family: 'Jua', sans-serif;
+	font-size: 24px;
+	text-align: center;
+}
+.section {
+	width:85%;
+	padding-top: 30px;
+	padding-right: 60px;
+	padding-left: 60px;
+	padding-bottom: 30px;
+	float:left;
+	border: 1px solid #8C8C8C;
+}
+.aside {
+	width:25%;
+	float:right;
+	font-size: 15px;
+	font-weight: bold;
+	font-family: 'Noto Sans KR', sans-serif;
+	text-align: center;
+}
+.footer {
+	width:100%;
+	padding-right:25px;
+	padding-top:10px;
+	padding-bottom:30px;
+	clear: both;
+}
+a:link{color: black;} /*타이틀이랑 같은 색?*/
+a:visited{color: black;}
+a:hover{color: #F29661;}
+a:active{color: #F29661;}
