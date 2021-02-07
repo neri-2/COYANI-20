@@ -49,6 +49,25 @@ html,body {
 	padding-bottom:30px;
 	clear: both;
 }
+#floatdiv {
+	position: fixed;
+	padding-top: 20px;
+	width: 190px;
+	height: 600px;
+	display:inline-block;
+	right: 60px;
+	top: 30%;
+	background-image: url(source\\bg.png);
+	background-repeat:no-repeat;
+	background-position: top center; 
+}
+#motivation {
+	text-align: center;
+	font-size: 24px;
+}
+#name {
+	text-align: center;
+}
 a:link{color: black;} /*타이틀이랑 같은 색?*/
 a:visited{color: black;}
 a:hover{color: #F29661;}
